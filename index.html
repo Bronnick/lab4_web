@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      </style>
+      <style>
+        @import url('https://fonts.googleapis.com/css?family=Gamja Flower');
+      </style> 
+    <title>Lab4</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section id="intro-page">
+            <header>
+                <div class="logo header-item">
+                    <p>FurnitureStore</p>
+                </div>
+                <nav class="main-nav header-item">
+                    <ul>
+                        <li><a href="#">Main</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Price</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="action-icons header-item">
+                    <img class="action-icon" src="./assets/skill-icons_instagram.png" alt="linkedin">
+                    <img class="action-icon" src="./assets/logos_facebook.png" alt="instagram">
+                    <img class="action-icon" src="./assets/skill-icons_twitter.png" alt="facebook">
+                </div>
+            </header>
+
+            <div id="hero-banner">
+                <div class="hero-banner-header">
+                    <p>BUY FURNITURE FROM US</p><p class="second-hero-banner-header">and never worry about it</p>
+                </div>
+                <div id="cta">
+                    <button id="cta-button">Order</button>
+                    <img id="cta-image" src="assets/58f8bcf70ed2bdaf7c128308.png" alt="arrow">
+                    <p id="cta-text">Order from here</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-div">
+                <div class="main-about">
+                    <h2 id="about-header">Who are we?</h2>
+                    <p id="about-description">We are an international furniture company <br> that has received worldwide recognition <br> for the convenience of our products</p>
+                </div>
+                <div class="features">
+                    <ul>
+                        <li>
+                            <div class="col-left icon">
+                                <img src="./assets/ic_baseline-tiktok.png" alt="tiktok">
+                            </div>
+                            <div class="col-left feat">
+                                <p class="feature-description"><span class="feature-name">1.000.000+</span><br>Social media audience</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col-left icon">
+                                <img src="./assets/mdi_like.png" alt="like">
+                            </div>
+                            <div class="col-left feat">
+                                <p class="feature-description"><span class="feature-name">300.000+ likes</span><br>collected videos</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col-left icon">
+                                <img src="./assets/arrow_icon.png" alt="check">
+                            </div>
+                            <div class="col-left feat">
+                                <p class="feature-description"><span class="feature-name">5.000.000+</span><br>satisfied customers</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about-div">
+                <img class="about-img img1" src="./assets/chair1.png" alt="chair1">
+                <img class="about-img img2" src="./assets/chair2.png" alt="chair2">
+            </div>
+        </section>
+
+        <section id="benefits">
+            <h2 id="benefits-header">What are our benefits?</h2>
+            <div class="tabs">
+                <div class="tabs-captions">
+                    <div id="caption1" class="tab-caption selected-tab">
+                        <img class="tab-caption-image" src="./assets/eye.png" alt="eye">
+                        <h3 class="tab-caption-header">Time</h3>
+                    </div>
+                    <div id="caption2" class="tab-caption">
+                        <img class="tab-caption-image" src="./assets/eye.png" alt="eye">
+                        <h3 class="tab-caption-header">Quality</h3>
+                    </div>
+                    <div id="caption3" class="tab-caption">
+                        <img class="tab-caption-image" src="./assets/eye.png" alt="eye">
+                        <h3 class="tab-caption-header">Access</h3>
+                    </div>
+                </div>
+                <div id="tabs-content-container" class="tabs-content">
+                    <div class="tab-card">
+                        <img class="tab-card-image" src="./assets/mdi_clock.png" alt="clock">
+                        <p class="tab-card-description">We deliver furniture just in time</p>
+                    </div>
+                    <!-- <div class="tab-card">
+                        <img class="tab-card-image" src="./assets/arrow_icon.png" alt="check">
+                        <p class="tab-card-description">Our furniture is high quality</p>
+                    </div>
+                    <div class="tab-card">
+                        <img class="tab-card-image" src="./assets/ic_baseline-phone.png" alt="phone">
+                        <p class="tab-card-description">We are always available</p>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="price">
+            <h2 id="price-header">Price</h2>
+            <div class="price-examples">
+                <div class="price-card">
+                    <img class="price-image" src="./assets/chair3.png" alt="chair">
+                    <h2 class="price-card-header">Chairs</h2>
+                    <p class="price-card-description">500-700$</p>
+                </div>
+                <div class="price-card">
+                    <img class="price-image" src="./assets/table.png" alt="table">
+                    <h2 class="price-card-header">Tables</h2>
+                    <p class="price-card-description">700-1000$</p>
+                </div>
+                <div class="price-card">
+                    <img class="price-image" src="./assets/door.png" alt="door">
+                    <h2 class="price-card-header">Doors</h2>
+                    <p class="price-card-description">300-500$</p>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <h2 class="footer-header">Contact us!</h2>
+            <div class="footer-social-media">
+                <a href="#"><img src="./assets/skill-icons_instagram.png" alt="instagram"></a>
+                <a href="#"><img src="./assets/logos_facebook.png" alt="twitter"></a>
+                <a href="#"><img src="./assets/skill-icons_twitter.png" alt="facebook"></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
